@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif-bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
 }
 
@@ -38,7 +38,7 @@
     width: 50px;
     display: inline-block;
     border-radius: 50%;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .profile .arrow {
@@ -54,8 +54,11 @@
     line-height: 60px;
     vertical-align: bottom;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
+
 }
+
+
 
 .profile span {
     color: #ccc;
@@ -76,7 +79,7 @@
 }
 
 .chat-box {
-    background: url("../img/bg.jpeg");
+    background-image: url("img/bg.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -95,6 +98,7 @@
 
 .chat-r .sp {
     flex: 1;
+
 }
 
 .chat-I {
@@ -107,11 +111,12 @@
 
 .chat-box .mess {
     max-width: 300px;
-    background: #f7fcf6;
+    background: #cedbce;
     padding: 10px;
     border-radius: 10px;
     margin: 20px 0px;
     cursor: pointer;
+
 }
 
 .chat-box .mmess p {
@@ -120,7 +125,7 @@
 }
 
 .chat-box .mess-r {
-    background: #e2ffc7;
+    background: #c7c7df;
 }
 
 .chat-box .emoji {
